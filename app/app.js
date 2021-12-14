@@ -8,8 +8,8 @@ http.createServer(function (request, response) {
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'});
    
-   // Send the response body as "Hello World"
-   response.end('Hello World\n');
+   // Send the response body as "NET2008 2021"
+   response.end('NET2008 2021\n');
 
 
 }).listen(PORT);
